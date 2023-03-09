@@ -26,6 +26,10 @@ img {
     font-size: 15px;
 }
 
+.bi, .bi-list{
+    font-size: 30px;
+}
+
 .imgNameHeader{
     display: flex;
     flex-direction: row;
