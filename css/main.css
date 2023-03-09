@@ -5,12 +5,18 @@
     box-sizing: border-box;
 }
 
-header{
+body{
+    background-color: #fafafa;
+}
+
+
+.containerHeader{
+    padding: 13px 16px;
     display: flex;
+    border-bottom: 1px solid #eee;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 14px; 
-    background-color:antiquewhite
+    background-color: white;
 }
 
 img {
@@ -36,19 +42,10 @@ img {
     visibility: visible;
 }
 
-.imgNav{
-    width: 37px;
-    height: 38px;
-}
 
-.visibilityimgHeader{
-    visibility:hidden;
-    transition: all 150ms ease-out;
-}
 
 
 .navList{
-    
     list-style-type: none;
     flex-direction: column;
     gap: 1rem;
@@ -58,32 +55,32 @@ img {
 nav{
     opacity: 0;
     visibility: hidden;
-    gap: 1rem;
-    position:absolute;
+    position: absolute;
     display: flex;
+    width: 100%;
     flex-direction: column;
-    left: -150px;
-    top: 0;
-    background-color: rgb(119, 84, 84);
-    padding: 13px 15px 0px 11px;
-    bottom: 0;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-    transition: all 250ms ease-out;
-    justify-content:baseline;
-    
+    background-color: white;
+    padding: 0px 15px 0px 11px;
+    box-shadow: 0 62vmax 0vmax 62vmax rgba(0, 0, 0, .5);
+    transition: all .3s
 }
 
 .visible{
     opacity: 1;
     left: 0;
+    top: 77px;
+    width: 100%;
     visibility: visible;
-    transition: all 250ms ease-out;
+    transition: all .3s
 }
 
+
+
 li{
-    padding: 0.5rem;
-    margin-top: 15px;
-    text-align: center;
+    padding: 20.5px;
+    font-size: 23px;
+    text-align: end;
+    border-bottom: 1px solid #eee;
 }
 
 
