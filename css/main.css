@@ -9,9 +9,39 @@
 
 body{
     background-color: #fafafa;
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+article, header{
+    display: none;
+    opacity: 0;
+}
+
+
+
+
+
+.loader {
+    display: block;
+    border: 16px solid #f3f3f3;
+    border-bottom: 16px solid #9123b4;
+    border-radius: 50%;
+    width: 120px;
+    left: 34%;
+    top: 34%;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(136, 52, 161, 0.7);
+    position: fixed;
+    z-index: 1;
+    transition: all 1000ms ease;
+  }
+  
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
 
 .containerHeader{
     padding: 13px 16px;
@@ -39,6 +69,7 @@ img {
 
 .bi, .bi-list{
     font-size: 30px;
+    color: #9123b4;
 }
 
 .close-menu{
@@ -76,7 +107,7 @@ nav{
 .visible{
     opacity: 1;
     left: 0;
-    top: 77px;
+    top: 82px;
     width: 100%;
     visibility: visible;
     transition: all .3s
@@ -89,6 +120,7 @@ li{
     font-size: 23px;
     text-align: end;
     border-bottom: 1px solid #eee;
+    text-transform: uppercase;
 }
 
 
@@ -98,4 +130,25 @@ li{
 
 button{
     background-color: transparent;
+}
+
+.pWelcome{
+    background: #9123b4;
+    width: 100%;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.divtWelcome{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px;
+    text-align: center;
+    gap: 18px;
+    padding: 3%;
+}
+
+.pAbout{
+    margin: 0 20px;
 }
