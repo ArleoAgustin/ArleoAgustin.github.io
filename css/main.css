@@ -188,6 +188,10 @@ button{
 .pAbout{
     padding: 22px;
     font-size: 19px;
+    text-indent: inherit;
+    text-transform: math-auto;
+    text-shadow: 0 0 black;
+    text-align: center;
 }
 
 
@@ -226,14 +230,8 @@ section{
 
 
 
-/*.....................................*/
+/*...............keyframes......................*/
 
-
-
-.about{
-    animation: rebotar 2.5s 1.5;
-    animation-timing-function: ease-in-out;
-}
 
 @keyframes move{
     0%{
