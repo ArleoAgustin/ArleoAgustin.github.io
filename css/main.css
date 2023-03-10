@@ -155,7 +155,8 @@ button{
     background: #9123b4;
     width: 100%;
     color: white;
-    padding: 8px;
+    padding: 16px;
+    border-radius: 5px;
     font-weight: bold;
 }
 
@@ -171,7 +172,10 @@ button{
 .pAbout{
     
     letter-spacing: 0.5px;
-    padding: 37px;
+    padding: 32px;
+    border-radius: 10px;
+    background: white;
+    width: 84%;
 }
 
 h2{
@@ -185,4 +189,8 @@ article{
 
 section{
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
