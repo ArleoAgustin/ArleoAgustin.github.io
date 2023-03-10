@@ -44,7 +44,7 @@ article, header{
 }
 
 .containerHeader{
-    padding: 13px 16px;
+    padding: 7px 15px;
     display: flex;
     border-bottom: 1px solid #eee;
     align-items: center;
@@ -52,19 +52,37 @@ article, header{
     background-color: white;
 }
 
+.containerImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 9px;
+    gap: 3px;
+    align-items: center;
+}
+
 img {
     width: 54px;
-    margin-right: 11px;
     height: 55px;
     border-radius: 30px;
     
 }
 
+.triangulo-equilatero-bottom {
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 19px solid #9123b4;
+}
+
+
 .imgName, .imgNameHeader{
     display: flex;
-    align-items: center;
+    gap: 12px;
     flex-direction: row;
-    font-size: 15px;
+    visibility: visible;
+    align-items: center;
 }
 
 .bi, .bi-list{
@@ -80,6 +98,7 @@ img {
     display: flex;
     flex-direction: row;
     visibility: visible;
+    gap: 8px;
 }
 
 
