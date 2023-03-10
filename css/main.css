@@ -177,7 +177,7 @@ button{
 
 .about {
     letter-spacing: 0.5px;
-    padding: 23px;
+    padding: 36px;
     background: #f3f3f3;
     width: 102%;
     margin-top: 48px;
@@ -185,7 +185,8 @@ button{
 }
 
 .pAbout{
-    padding: 35px;
+    padding: 22px;
+    font-size: 19px;
 }
 
 
@@ -205,4 +206,19 @@ section{
     justify-content: center;
     align-items: center;
 
+}
+
+.h2about{
+    border-bottom: 4px solid #9123b4
+}
+
+
+.containerImgAbout{
+    margin-top: 19px;
+}
+
+.imgAbout{
+    height: 200px;
+    border-radius: 8px;
+    width: 172px;
 }
