@@ -8,7 +8,7 @@
 
 body{
     background-color: #fafafa;
-    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
+    background: linear-gradient(to right,rgba(215,459,347,364.8),rgba(212,83,287,127.8)),url(https://d33wubrfki0l68.cloudfront.net/daac885…/c157c/assets/svg/common-bg.svg);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -195,10 +195,10 @@ h2{
     -webkit-text-stroke-width: thin;
     letter-spacing: 1.5px;
 }
-
+/*
 article{
     background-image: linear-gradient(220.17deg,#9123b4 -224.51%,#F4F5FF 102.03%,#FFFFFF -27.41%);
-}
+}*/
 
 section{
     padding-top: 122px;
