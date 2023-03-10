@@ -126,7 +126,7 @@ nav{
 .visible{
     opacity: 1;
     left: 0;
-    top: 82px;
+    top: 100px;
     width: 100%;
     visibility: visible;
     transition: all .3s
@@ -169,5 +169,15 @@ button{
 }
 
 .pAbout{
-    margin: 0 20px;
+    
+    letter-spacing: 0.5px;
+    padding: 37px;
+}
+
+article{
+    background-image: linear-gradient(220.17deg,#9123b4 -224.51%,#F4F5FF 102.03%,#FFFFFF -27.41%);
+}
+
+section{
+    padding-top: 30px;
 }
