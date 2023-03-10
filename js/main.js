@@ -25,3 +25,14 @@ document.addEventListener("click", function(e){
 
     }
 });
+
+
+
+window.addEventListener('scroll', ()=>{
+    let container = document.querySelector(".animation");
+    let posObj = container.getBoundingClientRect().top
+    let tamanioDePantalla = window.innerHeight/1
+
+    if(posObj < tamanioDePantalla)
+        container.style.animation = 'move 1s ease-out';
+})
