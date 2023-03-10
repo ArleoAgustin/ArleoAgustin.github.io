@@ -10,7 +10,7 @@ body{
     background-color: #fafafa;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
     font-family: 'Source Sans Pro', sans-serif;
-    
+    background-image: linear-gradient(220.17deg,#9123b4 -224.51%,#F4F5FF 102.03%,#FFFFFF -27.41%);
 }
 
 article, header{
@@ -46,10 +46,9 @@ article, header{
 .containerHeader{
     padding: 7px 15px;
     display: flex;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eeeeee00;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
 }
 
 .containerImg{
@@ -189,7 +188,7 @@ h2{
 }
 
 article{
-    background-image: linear-gradient(220.17deg,#9123b4 -224.51%,#F4F5FF 102.03%,#FFFFFF -27.41%);
+    
 }
 
 section{
