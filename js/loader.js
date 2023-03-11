@@ -1,7 +1,7 @@
 const loader = document.querySelector(".loader");
 const main = document.querySelector("article")
 const header = document.querySelector("header");
-console.log(main)
+
 function init(){
     setTimeout(() =>{
         loader.style.opacity = 0;
