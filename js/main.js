@@ -31,7 +31,7 @@ document.addEventListener("click", function(e){
 window.addEventListener('scroll', ()=>{
     let container = document.querySelector(".animation");
     let posObj = container.getBoundingClientRect().top
-    let tamanioDePantalla = window.innerHeight/1
+    let tamanioDePantalla = window.innerHeight/0.3
 
     if(posObj < tamanioDePantalla)
         container.style.animation = 'move 0.8s ease-out';

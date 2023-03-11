@@ -185,7 +185,7 @@ button{
     letter-spacing: 0.5px;
     padding: 36px;
     background: #f3f3f3;
-    width: 102%;
+    width: 100%;
     margin-top: 48px;
     box-shadow: rgb(38, 57, 77) -1px 15px 49px 0px;
 }
@@ -219,12 +219,16 @@ section{
 }
 
 .h2about{
-    border-bottom: 4px solid #9123b4
+    border-bottom: 4px solid #9123b4;
+    margin-bottom: 3%;
 }
 
 
 .containerImgAbout{
     margin-top: 19px;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 4%;
 }
 
 .imgAbout{
