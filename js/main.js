@@ -36,3 +36,16 @@ window.addEventListener('scroll', ()=>{
     if(posObj < tamanioDePantalla)
         container.style.animation = 'move 0.8s ease-out';
 })
+
+
+let ubicacionPrincipal  = window.pageYOffset;
+window.onscroll = function() {
+    let Desplazamiento_Actual = window.pageYOffset;
+    if(ubicacionPrincipal >= Desplazamiento_Actual){
+        document.querySelector("header").style.top = '0';
+    }
+    else{
+        document.querySelector("header").style.top = '-100px';
+    }
+    ubicacionPrincipal = Desplazamiento_Actual;
+}
