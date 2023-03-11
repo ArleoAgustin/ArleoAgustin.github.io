@@ -34,5 +34,5 @@ window.addEventListener('scroll', ()=>{
     let tamanioDePantalla = window.innerHeight/1
 
     if(posObj < tamanioDePantalla)
-        container.style.animation = 'move 1s ease-out';
+        container.style.animation = 'move 0.8s ease-out';
 })
