@@ -162,6 +162,14 @@ button{
     background-color: transparent;
 }
 
+
+   h1 {
+    display: block;
+    white-space: nowrap;
+    width: 68%;
+    
+   }
+
 .pWelcome{
     background: #9123b4;
     width: 100%;
