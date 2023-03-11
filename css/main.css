@@ -8,13 +8,16 @@
 
 body{
     background-color: #fafafa;
-    background: linear-gradient(to right,rgba(215,459,347,364.8),rgba(212,83,287,127.8)),url(https://d33wubrfki0l68.cloudfront.net/daac885…/c157c/assets/svg/common-bg.svg);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 article, header{
     display: none;
     opacity: 0;
+}
+
+article{
+    background: linear-gradient(to right,rgba(215,459,347,364.8),rgba(212,83,287,127.8)),url(https://d33wubrfki0l68.cloudfront.net/daac885…/c157c/assets/svg/common-bg.svg);
 }
 
 header{
