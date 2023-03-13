@@ -247,6 +247,47 @@ section{
 
 
 
+.titleSkills{
+    margin-top: 6%;
+    text-align: start;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.skillsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.skill{
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+
+.dskill{
+    padding: 10px;
+    border-radius: 12px;
+    margin: 12px;
+    width: max-content;
+    background: #bfc2c56e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*...............keyframes......................*/
 
 
