@@ -3,7 +3,7 @@ let open =  document.querySelector(".bi, .bi-list");
 let close = document.querySelector(".close-menu");
 let divname = document.querySelector("#divName");
 
-
+let btnClick;
 
 open.addEventListener("click", ()=> {
     nav.classList.add("visible");
@@ -15,7 +15,7 @@ open.addEventListener("click", ()=> {
 
 
 document.addEventListener("click", function(e){
-
+    btnClick = e.target;
     var clic = e.target;
     if(nav.className == "visible" && clic != open){
         nav.classList.remove("visible")
@@ -50,7 +50,8 @@ window.onscroll = function() {
         document.querySelector("header").style.top = '0';
     }
     else{
-        document.querySelector("header").style.top = '-100px';
+        if(btnClick != open)
+            document.querySelector("header").style.top = '-100px';
     }
     ubicacionPrincipal = Desplazamiento_Actual;
 }
