@@ -1,6 +1,7 @@
 const loader = document.querySelector(".loader");
 const main = document.querySelector("article")
 const header = document.querySelector("header");
+const container = document.querySelector(".container");
 
 function init(){
     setTimeout(() =>{
@@ -13,7 +14,7 @@ function init(){
         header.style.opacity = 1;
         header.style.display = "block";
     }
-    ,3500);
+    ,2500);
 }
 
 init();
