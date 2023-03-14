@@ -14,7 +14,7 @@ function init(){
         header.style.opacity = 1;
         header.style.display = "block";
     }
-    ,2500);
+    ,1000);
 }
 
 init();
