@@ -13,7 +13,7 @@ function init(){
         header.style.opacity = 1;
         header.style.display = "block";
     }
-    ,Math.random() * (2000 - 500) + 500);
+    ,3500);
 }
 
 init();

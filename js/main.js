@@ -35,11 +35,10 @@ window.addEventListener('scroll', ()=>{
     for (let i = 0; i < container.length; i++){
 
         let posObj = container[i].getBoundingClientRect().top
-        let tamanioDePantalla = window.innerHeight 
-        
+        let tamanioDePantalla = window.innerHeight;
         if(posObj < tamanioDePantalla)
-        container[i].style.animation = 'move 1s ease-out';
-        console.log(container[i])
+            container[i].style.animation = 'move 1.2s ease-out';
+
     }
 })
 
