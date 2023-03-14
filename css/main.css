@@ -222,9 +222,7 @@ button{
     padding: 36px;
     background: #f3f3f3;
     width: 100%;
-    animation: deslizar 4.5s 1;
-    
-    margin-top: 48px;
+    margin: 1000px 0px 0px 0px;
     box-shadow: rgb(38, 57, 77) -1px 15px 49px 0px;
 }
 
@@ -235,6 +233,7 @@ button{
     text-transform: math-auto;
     text-shadow: 0 0 black;
     text-align: center;
+    
 
 }
 

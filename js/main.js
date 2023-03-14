@@ -2,6 +2,7 @@ let nav = document.querySelector("#nav");
 let open =  document.querySelector(".bi, .bi-list");
 let close = document.querySelector(".close-menu");
 let divname = document.querySelector("#divName");
+let about = document.querySelector(".about");
 
 let btnClick;
 
@@ -55,3 +56,11 @@ window.onscroll = function() {
     }
     ubicacionPrincipal = Desplazamiento_Actual;
 }
+
+
+
+setTimeout(() =>{
+
+    about.style.margin = '0px';
+    about.style.animation = 'deslizar 4s 1';
+},3000) 
