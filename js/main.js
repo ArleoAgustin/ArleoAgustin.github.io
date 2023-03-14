@@ -61,6 +61,6 @@ window.onscroll = function() {
 
 setTimeout(() =>{
 
-    about.style.margin = '0px';
+    about.style.margin = '28px 0px 0px 0px';
     about.style.animation = 'deslizar 4s 1';
 },3000) 
