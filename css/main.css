@@ -317,12 +317,11 @@ section{
 @keyframes rebotar{
     0%{
         transform: translateY(-800px);
-        letter-spacing: -12px;
+        
     }
 
     100%{
         transform: translateY(0px);
-        letter-spacing: 1.5px;
 
     }
     
