@@ -3,7 +3,7 @@ let open =  document.querySelector(".bi, .bi-list");
 let close = document.querySelector(".close-menu");
 let divname = document.querySelector("#divName");
 let about = document.querySelector(".about");
-
+let body = document.querySelector("body");
 let btnClick;
 
 open.addEventListener("click", ()=> {
@@ -63,4 +63,8 @@ setTimeout(() =>{
 
     about.style.margin = '28px 0px 0px 0px';
     about.style.animation = 'deslizar 4s 1';
+    setTimeout(() =>{
+        body.style.overflowY = "scroll"
+    },4000)
+
 },3000) 
