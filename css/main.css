@@ -284,10 +284,11 @@ section{
     width: 100%;
 }
 
-.skillsContainer{
+.skillsContainer ,.titletools{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 2%;
 }
 
 .skill{
@@ -305,7 +306,9 @@ section{
     font-size: 17px;
 }
 
-
+.tools{
+    margin-top: 6%;
+}
 
 
 .welcome{
