@@ -317,13 +317,9 @@ section{
 @keyframes rebotar{
     0%{
         transform: translateY(-800px);
-        
+        transform: scale(0, 0);
     }
 
-    100%{
-        transform: translateY(0px);
-
-    }
     
 }
 
@@ -363,12 +359,4 @@ section{
         transform: translateY(300px);
     }
 
-
-   /* 87%{
-        transform: translateY(-10px);
-    }
-    97%{
-        transform: translateY(-3px);
-    }*/
-    
 }
