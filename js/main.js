@@ -61,12 +61,14 @@ window.onscroll = function() {
 
 
 setTimeout(() =>{
-    about.style.animation = 'deslizarAbout 3s 1';
-    welcome.style.animation = 'deslizar 3s 1';
-    setTimeout(() =>{
-        about.style.margin = '0px 0px 0px 0px';
-        welcome.style.paddingBottom = '25px';
-          body.style.overflowY = "scroll"
-    },3000)
 
-},3000) 
+    about.style.animation = 'deslizarAbout 3s 1';
+    
+    setTimeout(() =>{
+
+        about.style.margin = '0px 0px 0px 0px';
+        body.style.background= "white"
+        body.style.overflowY = "scroll"
+    },3000)
+    
+},2000) 
