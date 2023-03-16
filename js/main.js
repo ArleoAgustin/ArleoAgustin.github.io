@@ -2,6 +2,7 @@ let nav = document.querySelector("#nav");
 let open =  document.querySelector(".bi, .bi-list");
 let close = document.querySelector(".close-menu");
 let divname = document.querySelector("#divName");
+let welcome = document.querySelector(".sectionWelcome");
 let about = document.querySelector(".about");
 let body = document.querySelector("body");
 let btnClick;
@@ -60,11 +61,12 @@ window.onscroll = function() {
 
 
 setTimeout(() =>{
-
-    about.style.margin = '28px 0px 0px 0px';
-    about.style.animation = 'deslizar 4s 1';
+    about.style.animation = 'deslizarAbout 3s 1';
+    welcome.style.animation = 'deslizar 3s 1';
     setTimeout(() =>{
-        body.style.overflowY = "scroll"
-    },4000)
+        about.style.margin = '0px 0px 0px 0px';
+        welcome.style.paddingBottom = '25px';
+          body.style.overflowY = "scroll"
+    },3000)
 
 },3000) 
