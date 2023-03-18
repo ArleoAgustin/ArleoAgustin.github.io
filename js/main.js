@@ -62,11 +62,10 @@ window.onscroll = function() {
 
 setTimeout(() =>{
 
-    about.style.animation = 'deslizarAbout 5s 1';
     
+    welcome.style.animation = 'reducirBottom 5s 1'
     setTimeout(() =>{
-
-        about.style.margin = '0px 0px 0px 0px';
+        welcome.style.paddingBottom = '35px'
         body.style.background= "white"
         body.style.overflowY = "scroll"
     },5000) //el mismo tiempo que la animacion

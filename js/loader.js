@@ -11,10 +11,10 @@ function init(){
         main.style.opacity = 1;
         main.style.display = "block";
 
-        header.style.opacity = 1;
+       header.style.opacity = 1;
         header.style.display = "block";
     }
-    ,1000);
+    ,3000);
 }
 
 init();
