@@ -191,6 +191,7 @@ button{
 
 .sectionWelcome{
     background: linear-gradient(to right,rgba(215,459,347,364.8),rgba(212,83,287,127.8)),url(https://d33wubrfki0l68.cloudfront.net/daac885…/c157c/assets/svg/common-bg.svg);
+    padding-bottom: 35px;
 }
 
 .containerWelcome{
@@ -202,7 +203,7 @@ button{
     background: #9123b4;
     width: 100%;
     color: white;
-    animation: mostrar 4s 1;
+    animation: mostrar 3.5s 1;
 
     animation-timing-function: ease-in-out;
     padding: 15px;
