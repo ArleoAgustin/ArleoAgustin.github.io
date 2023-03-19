@@ -16,7 +16,8 @@ body{
 }
 
 .container{ 
-   
+    background: linear-gradient(to top,rgb(255 255 255),rgba(142,68,173,1));
+    height: 850px;
 
     
 }
@@ -28,7 +29,7 @@ body{
 
 article, header{
     
-    opacity: 0;
+    
 }
 
 
@@ -263,6 +264,7 @@ button{
 .sectionWelcome{
     background: linear-gradient(to top,rgba(215,459,347,364.8),rgba(142,68,173,1));
     padding-bottom: 400px;
+
 }
 
 
@@ -287,7 +289,7 @@ button{
     width: 100%;
     color: white;
     animation: mostrar 3.5s 1;
-
+    display: none;
     animation-timing-function: ease-in-out;
     padding: 15px;
     border-radius: 5px;
@@ -405,6 +407,7 @@ section{
     
     animation: rebotar 2.2s 1;
     animation-timing-function: cubic-bezier(0.3, 0.89, 0.50, 1.1);
+    display: none;
 }
 
 

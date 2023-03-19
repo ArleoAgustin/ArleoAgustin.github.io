@@ -5,16 +5,21 @@ const container = document.querySelector(".container");
 
 function init(){
     setTimeout(() =>{
-        loader.style.opacity = 0;
-        loader.style.display = 'none';
+           loader.style.opacity = 0;
+           loader.style.display = 'none';
 
-        main.style.opacity = 1;
-        main.style.display = "block";
-
-       header.style.opacity = 1;
-        header.style.display = "block";
     }
     ,3000);
 }
+
+setTimeout(() =>{
+main.style.opacity = 1; 
+main.style.display = "block";
+
+header.style.opacity = 1;
+header.style.display = "block";
+}
+,5800);
+
 
 init();

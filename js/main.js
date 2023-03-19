@@ -3,6 +3,8 @@ let open =  document.querySelector(".bi, .bi-list");
 let close = document.querySelector(".close-menu");
 let divname = document.querySelector("#divName");
 let welcome = document.querySelector(".sectionWelcome");
+let h2Welcome = document.querySelector(".welcome");
+let pWelcome = document.querySelector(".pWelcome");
 let about = document.querySelector(".about");
 let body = document.querySelector("body");
 let btnClick;
@@ -62,12 +64,13 @@ window.onscroll = function() {
 
 setTimeout(() =>{
 
-    
+    h2Welcome.style.display = "block";
+    pWelcome.style.display = "block"
     welcome.style.animation = 'reducirBottom 5s 1'
     setTimeout(() =>{
         welcome.style.paddingBottom = '35px'
         body.style.background= "white"
         body.style.overflowY = "scroll"
-    },5000) //el mismo tiempo que la animacion
+    },4000) //el mismo tiempo que la animacion
     
-},2000) 
+},3500) 
