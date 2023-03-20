@@ -18,7 +18,7 @@ main.style.display = "block";
 
 header.style.opacity = 1;
 header.style.display = "block";
-header.style.animation = "showHeader 4s";
+header.style.animation = "showHeader 3s";
 header.style.top = "0px"
 }
 ,5800);

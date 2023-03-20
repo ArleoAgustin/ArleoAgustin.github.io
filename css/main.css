@@ -147,7 +147,7 @@ header{
 
 
 .containerHeader{
-    padding: 7px 15px;
+    padding: 4px 10px;
     display: flex;
     border-bottom: 1px solid #eeeeee00;
     align-items: center;
@@ -227,7 +227,7 @@ nav{
 .visible{
     opacity: 1;
     left: 0;
-    top: 71.154px;
+    top: 65px;
     position: fixed;
     width: 100%;
     visibility: visible;
@@ -286,7 +286,7 @@ button{
 
 .pWelcome{
     background: #9123b4;
-    width: 100%;
+    width: 89%;
     color: white;
     animation: mostrar 3.5s 1;
     display: none;
@@ -300,8 +300,9 @@ button{
 .divtWelcome{
     display: flex;
     flex-direction: column;
-    margin: 50px 20px;
+    margin: 26px 0px 52px 0px;
     text-align: center;
+    text-align: -webkit-center;
     padding: 7px;
 }
 
