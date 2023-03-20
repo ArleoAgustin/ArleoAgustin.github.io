@@ -66,11 +66,18 @@ setTimeout(() =>{
 
     h2Welcome.style.display = "block";
     pWelcome.style.display = "block"
-    welcome.style.animation = 'reducirBottom 5s 1'
+    
+
+},3500)
+
+setTimeout(() =>{
+
+    welcome.style.animation = 'reducirBottom 3s 1'
+
     setTimeout(() =>{
         welcome.style.paddingBottom = '35px'
         body.style.background= "white"
         body.style.overflowY = "scroll"
-    },4000) //el mismo tiempo que la animacion
+    },3000) //el mismo tiempo que la animacion
     
-},3500) 
+},6000)
