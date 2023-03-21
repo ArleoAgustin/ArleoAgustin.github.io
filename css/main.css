@@ -258,7 +258,7 @@ button{
 
 .sectionWelcome{
     background: linear-gradient(to top,rgba(215,459,347,364.8),rgba(142,68,173,1));
-    padding-bottom: 600px;
+
 
 }
 
@@ -295,11 +295,45 @@ button{
 .divtWelcome{
     display: flex;
     flex-direction: column;
-    margin: 50px 15px 100px 15px;
+    margin: 100px 15px 12px 15px;
     text-align: center;
     text-align: -webkit-center;
+    position: sticky;
     padding: 7px;
+    padding-bottom: 43%;
+    height: 349px;
 }
+
+
+.classmoveIcon{
+    animation: down 1s infinite ease-out;    
+}
+
+.classShowIcon{
+    animation: rebotar 1s 1;
+}
+
+
+.iconDown{
+    margin: 0px 2px 48px 0px;
+    opacity: 0;
+}
+
+
+@keyframes down {
+
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
 
 .about {
     letter-spacing: 0.5px;
@@ -513,7 +547,7 @@ section{
     }
 }
 
-
+/*
 @keyframes deslizar {
     0%{
     }
@@ -522,8 +556,8 @@ section{
         
     }
 }
-
-
+*/
+/*
 @keyframes deslizarAbout {
     0%{
     }
@@ -531,7 +565,7 @@ section{
         margin: 0px;
 
     }
-}
+}*/
 
 /*...............keyframes......................*/
 

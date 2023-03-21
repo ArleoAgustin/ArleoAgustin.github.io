@@ -81,12 +81,26 @@ setTimeout(() =>{
 
 },3500)
 
+
 setTimeout(() =>{
 
-    welcome.style.animation = 'reducirBottom 3s 1'
+    let iconDown = document.querySelector(".iconDown");
+    iconDown.style.opacity = 1
+    iconDown.classList.add("classShowIcon");
+    setTimeout(() =>{
+        iconDown.classList.replace("classShowIcon","classmoveIcon");
+    },1500)
+
+},8000)
+
+
+
+
+setTimeout(() =>{
+
+  //  welcome.style.animation = 'reducirBottom 3s 1'
 
     setTimeout(() =>{
-        welcome.style.paddingBottom = '35px'
         body.style.background= "white"
         body.style.overflowY = "scroll"
     },3000) //el mismo tiempo que la animacion

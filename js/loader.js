@@ -20,6 +20,7 @@ header.style.opacity = 1;
 header.style.display = "block";
 header.style.animation = "showHeader 3s";
 header.style.top = "0px"
+
 }
 ,5800);
 
