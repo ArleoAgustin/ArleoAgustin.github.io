@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', scrollbody);
+
 let nav = document.querySelector("#nav");
 let open =  document.querySelector(".bi, .bi-list");
 let close = document.querySelector(".close-menu");
@@ -7,7 +9,14 @@ let h2Welcome = document.querySelector(".welcome");
 let pWelcome = document.querySelector(".pWelcome");
 let about = document.querySelector(".about");
 let body = document.querySelector("body");
+let btnUp = document.querySelector("#btnUp");
+
 let btnClick;
+
+
+function scrollbody(){
+    window.scroll(0, 150)
+}
 
 open.addEventListener("click", ()=> {
     nav.classList.add("visible");
@@ -49,6 +58,15 @@ window.addEventListener('scroll', ()=>{
 
 let ubicacionPrincipal  = window.pageYOffset;
 window.onscroll = function() {
+
+    if(window.scrollY > 650){
+        btnUp.style.transform = "translateY(-15px)";
+    }
+    else
+        btnUp.style.transform = "translateY(100px)"
+    
+
+
     let Desplazamiento_Actual = window.pageYOffset;
     if(ubicacionPrincipal >= Desplazamiento_Actual){
         document.querySelector("header").style.top = '0';
@@ -81,3 +99,13 @@ setTimeout(() =>{
     },3000) //el mismo tiempo que la animacion
     
 },6000)
+
+
+
+btnUp.addEventListener("click", ()=> {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+});
+})
+
