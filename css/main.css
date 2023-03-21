@@ -295,7 +295,7 @@ button{
 .divtWelcome{
     display: flex;
     flex-direction: column;
-    margin: 100px 15px 12px 15px;
+    margin: 125px 15px 115px 15px;
     text-align: center;
     text-align: -webkit-center;
     position: sticky;
@@ -316,7 +316,8 @@ button{
 
 .iconDown{
     opacity: 0;
-    margin: 0% 2% 25% 0%;
+    margin: 0% 0% 18% 0%;
+
 }
 
 
