@@ -85,7 +85,7 @@ setTimeout(() =>{
 setTimeout(() =>{
 
     let iconDown = document.querySelector(".iconDown");
-    iconDown.style.opacity = 1
+    iconDown.style.opacity = "1"
     iconDown.classList.add("classShowIcon");
     setTimeout(() =>{
         iconDown.classList.replace("classShowIcon","classmoveIcon");
