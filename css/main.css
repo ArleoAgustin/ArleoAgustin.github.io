@@ -320,19 +320,6 @@ button{
 }
 
 
-@keyframes down {
-
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(15px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-    
-}
 
 
 .about {
@@ -342,7 +329,7 @@ button{
     width: 100%;
     margin: 0px 0px 0px 0px;
     box-shadow: #565656 0px -11px 20px -9px;
-    /*box-shadow: rgb(38, 57, 77) -1px 15px 0px 0px;*/
+
 }
 
 .pAbout{
@@ -531,9 +518,9 @@ section{
 }
 
 
-.containerpWelcome{
 
-}
+
+/*...............keyframes......................*/
 
 
 @keyframes mostrar {
@@ -547,27 +534,6 @@ section{
     }
 }
 
-/*
-@keyframes deslizar {
-    0%{
-    }
-    100%{
-        padding-bottom: 25px;
-        
-    }
-}
-*/
-/*
-@keyframes deslizarAbout {
-    0%{
-    }
-    100%{
-        margin: 0px;
-
-    }
-}*/
-
-/*...............keyframes......................*/
 
 
 @keyframes move{
@@ -582,4 +548,18 @@ section{
     0%{
         transform: translateY(-300px);
     }
+}
+
+@keyframes down {
+
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
 }
