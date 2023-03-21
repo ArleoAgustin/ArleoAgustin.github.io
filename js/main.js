@@ -1,5 +1,3 @@
-document.addEventListener('DOMContentLoaded', scrollbody);
-
 let nav = document.querySelector("#nav");
 let open =  document.querySelector(".bi, .bi-list");
 let close = document.querySelector(".close-menu");
@@ -12,11 +10,6 @@ let body = document.querySelector("body");
 let btnUp = document.querySelector("#btnUp");
 
 let btnClick;
-
-
-function scrollbody(){
-    window.scroll(0, 150)
-}
 
 open.addEventListener("click", ()=> {
     nav.classList.add("visible");
@@ -109,3 +102,12 @@ btnUp.addEventListener("click", ()=> {
 });
 })
 
+
+window.addEventListener('beforeunload', () => {
+    window.scrollTo(0, document.body.scrollTop);
+
+    setTimeout(() =>{
+        window.scrollTop(0)
+    },0)
+
+});
