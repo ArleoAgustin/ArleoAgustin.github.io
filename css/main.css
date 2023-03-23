@@ -429,12 +429,20 @@ section{
 }
 
 
+.project{
+    margin-top: 21%;
+}
+
 
 .imgProject{
     border-radius: 0;
     height: 195px;
     display: flex;
     justify-content: center;
+}
+
+.firstProject{
+    margin-top: 0;
 }
 
 .h2Project{
